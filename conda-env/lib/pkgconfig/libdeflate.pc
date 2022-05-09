@@ -1,0 +1,10 @@
+prefix=/Users/cjelsa/Projects/deribit-position-greeks/conda-env
+exec_prefix=${prefix}
+includedir=/Users/cjelsa/Projects/deribit-position-greeks/conda-env/include
+libdir=/Users/cjelsa/Projects/deribit-position-greeks/conda-env/lib
+
+Name: libdeflate
+Description: Fast implementation of DEFLATE, zlib, and gzip
+Version: 1.10
+Libs: -L${libdir} -ldeflate
+Cflags: -I${includedir}
